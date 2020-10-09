@@ -16,35 +16,48 @@ public class Telefon {
     }
 
     public String getModel() {
+
         return this.model;
     }
 
     public int getMemorie () {
+
         return this.memorie;
     }
 
     public String getCuloare(){
+
         return this.culoare;
     }
 
-    public float getPret() {
+    public float getPret(float pret) {
+
         return this.pret;
     }
 
-    public void setModel() {
+    public void setModel(String model) {
+
         this.model = model;
     }
 
     public void setPret() {
+
         this.pret = pret;
     }
 
-    public void setMemorie() {
+    public void setMemorie(int memorie) {
+
         this.memorie= memorie;
     }
 
-    public void setCuloare() {
+    public void setCuloare(String culoare ) {
+
         this.culoare = culoare;
     }
-
+    public String print(){
+        return "Model:" + this.model + "\n" +
+                "Pret:" + this.pret + "\n" +
+                "Memorie:" + this.memorie + "\n" +
+                "Culoare:" + this.culoare + "\n" ;
+    }
 }

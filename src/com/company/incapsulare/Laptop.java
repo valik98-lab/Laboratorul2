@@ -30,30 +30,42 @@ public class Laptop {
         }
 
         public String getCuloare(){
+
             return this.culoare;
         }
 
         public float getDiagonala() {
+
             return this.diagonala;
         }
 
-        public void setTipul() {
+        public void setTipul(String tipul) {
+
             this.tipul = tipul;
         }
 
-        public void setProcesor () {
+        public void setProcesor (String procesor ) {
             this.procesor = procesor;
         }
 
-        public void setMemorie () {
+        public void setMemorie (int memorie) {
             this.memorie= memorie;
         }
 
-        public void setCuloare () {
+        public void setCuloare (String culoare) {
+
             this.culoare = culoare;
         }
 
-        public void setDiagonala () {
+        public void setDiagonala (float diagonala) {
+
             this.diagonala = diagonala;
+        }
+        public String print(){
+            return "Tipul:" + this.tipul + "\n" +
+                    "Procesor:" + this.procesor + "\n" +
+                    "Memorie:" + this.memorie + "\n" +
+                    "Culoare:" + this.culoare + "\n" +
+                    "Diagonala:" + this.diagonala + "\n";
         }
 }
