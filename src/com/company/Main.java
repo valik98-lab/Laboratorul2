@@ -58,6 +58,8 @@ public class Main {
 
         System.out.println("----------------------------");
 
+        //Mostenire simpla
+
         Masina car = new Masina("BMW","rosie",160F,90);
         System.out.println(car.print());
 

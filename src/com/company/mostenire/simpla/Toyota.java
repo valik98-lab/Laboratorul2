@@ -23,7 +23,7 @@ public class Toyota extends Masina {
         this.tip = tip;
     }
 
-    public void setPollination(String combustibil) {
+    public void setCombustibil(String combustibil) {
         this.combustibil = combustibil;
     }
     @Override
